@@ -968,7 +968,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item figure {
   background: #000;
   overflow: hidden;
-  height: 265px;
+  height: 260px;
   position: relative;
   border-radius: 4px 4px 0 0;
   margin: 0;
@@ -1072,9 +1072,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients img {
-  max-width: 100%;
-  opacity: 0.5;
-  transition: 0.3s;
+  max-width: 80%;
+  opacity: 0.7;
+  transition: 0.1s;
   padding: 15px 0;
 }
 
@@ -1362,6 +1362,82 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #13a456;
 }
 
+
+
+/*--------- New Contact Google Form*/
+
+.btn{
+  display: block;
+  margin: 30px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: medium;
+  color: #ffffff;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #ff004f;
+}
+.btn.btn2{
+  display: inline-block;
+}
+form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  background: #c02456;
+  cursor: pointer;
+}
+
+.contact-right form{
+  width: 100%;
+}
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 8px;  
+}
+
+
+#msg{
+  color: #1a8b06;
+  margin-top: -15px;
+  margin-bottom: -15px;
+  display: block;
+}
+
+#msgSubscribe{
+  color: #1a8b06;
+  margin-top: -15px;
+  margin-bottom: -15px;
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Privacy Policy
+--------------------------------------------------------------*/
+
+#privacypolicy {
+  background: #e1faf1;
+  padding: 20px 20px 30px 30px;
+  margin: auto;
+  font-size: 14px;
+}
+
+#privacypolicy h3{
+  color: #a41010;
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1495,14 +1571,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-newsletter input[type="email"] {
   border: 0;
-  padding: 6px 8px;
-  width: 65%;
+  padding: 4px 8px;
+  width: 90%;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
   background: #18d26e;
   border: 0;
-  width: 35%;
+  width: 40%;
   padding: 6px 0;
   text-align: center;
   color: #fff;
